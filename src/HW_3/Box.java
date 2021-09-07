@@ -31,7 +31,7 @@ class Box<T extends Fruit> {
 
     public void boxInfo() {
         if (list.isEmpty()) {
-            System.out.println("Коробка пуста");
+            System.out.println("Коробка пуста.");
         } else {
             System.out.println("В коробке находятся " + list.get(0).toString() + " " + list.size() + " шт.");
         }
